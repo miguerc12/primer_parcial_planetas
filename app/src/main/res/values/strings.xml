@@ -1,3 +1,169 @@
 <resources>
     <string name="app_name">frutas</string>
+
+
+    <!-- Nombres de los planetas -->
+    <string name="mercurio">Mercurio</string>
+    <string name="venus">Venus</string>
+    <string name="tierra">Tierra</string>
+    <string name="marte">Marte</string>
+    <string name="jupiter">Júpiter</string>
+    <string name="saturno">Saturno</string>
+    <string name="urano">Urano</string>
+    <string name="neptuno">Neptuno</string>
+
+    <!-- Descripciones de los planetas -->
+    <string name="mercurio_desc">El planeta más cercano al Sol</string>
+    <string name="venus_desc">Conocido como el planeta gemelo de la Tierra</string>
+    <string name="tierra_desc">Nuestro hogar</string>
+    <string name="marte_desc">El planeta rojo</string>
+    <string name="jupiter_desc">El planeta más grande de nuestro sistema solar</string>
+    <string name="saturno_desc">Famoso por sus impresionantes anillos</string>
+    <string name="urano_desc">Con su característico eje de rotación inclinado</string>
+    <string name="neptuno_desc">El planeta más distante y frío</string>
+
+    <!--jupiter -->
+    <string name="titulo_jupiter">Infografía de Júpiter</string>
+    <string name="datos_generales">Datos Generales</string>
+    <string name="masa">• Masa: 1.898 × 10^27 kg</string>
+    <string name="diametro_jupiter">• Diámetro: 142,984 km</string>
+    <string name="distancia_sol_jupiter">• Distancia del Sol: 778.5 millones km</string>
+    <string name="duracion_dia_jupiter">• Duración del día: 9.9 horas</string>
+    <string name="duracion_ano_jupiter">• Duración del año: 11.86 años terrestres</string>
+    <string name="atmosfera_jupiter">Atmósfera de Júpiter</string>
+    <string name="desc_atmosfera_jupiter">La atmósfera de Júpiter está compuesta principalmente de hidrógeno y helio. Posee bandas de nubes visibles que resultan de la circulación de estos gases.</string>
+    <string name="lunas_jupiter">Lunas de Júpiter</string>
+    <string name="desc_lunas_jupiter">Júpiter tiene 79 lunas conocidas. Las cuatro más grandes son Ío, Europa, Ganimedes y Calisto, conocidas como las lunas galileanas.</string>
+    <string name="campo_magnetico_jupiter">Campo Magnético</string>
+    <string name="desc_campo_magnetico_jupiter">Júpiter tiene el campo magnético más fuerte de cualquier planeta del Sistema Solar, que se extiende millones de kilómetros en el espacio y afecta a su entorno cercano.</string>
+    <string name="imagen_jupiter">Imagen de Júpiter</string>
+    <string name="imagen_gran_mancha_roja">Imagen de la Gran Mancha Roja</string>
+    <string name="imagen_lunas_jupiter">Imagen de las lunas de Júpiter</string>
+    <string name="imagen_campo_magnetico">Imagen del campo magnético de Júpiter</string>
+    <string name="boton_login">Login</string>
+    <string name="boton_lista">Lista</string>
+    <string name="boton_salir">Salir</string>
+
+    <!--tierra-->
+    <string name="titulo_infografia">Infografía de la Tierra</string>
+    <string name="info_general">Información General</string>
+    <string name="texto_info_general">La Tierra es el tercer planeta del sistema solar y el único que conocemos con vida. Tiene una superficie de aproximadamente 510 millones de km².</string>
+    <string name="atmosfera">Atmósfera</string>
+    <string name="texto_atmosfera">La atmósfera de la Tierra está compuesta principalmente por nitrógeno y oxígeno. Proporciona el aire que respiramos y protege la vida de los rayos ultravioleta del sol.</string>
+    <string name="hidrosfera">Hidrosfera</string>
+    <string name="texto_hidrosfera">La hidrosfera abarca todas las masas de agua de la Tierra, incluyendo océanos, mares, ríos y lagos. Aproximadamente el 71% de la superficie terrestre está cubierta de agua.</string>
+    <string name="biosfera">Biósfera</string>
+    <string name="texto_biosfera">La biósfera incluye todas las regiones de la Tierra donde existe vida, desde los océanos profundos hasta la atmósfera superior. Alberga millones de especies de seres vivos.</string>
+    <string name="boton_login_tierra">Login</string>
+    <string name="boton_lista_tierra">Lista</string>
+    <string name="boton_salir_tierra">Salir</string>
+
+    <!--marte-->
+    <string name="infografia_marte">Infografía de Marte</string>
+    <string name="foto_marte">Foto de Marte</string>
+    <string name="informacion_general_marte">Información General</string>
+    <string name="descripcion_informacion_general_marte">Marte es el cuarto planeta del sistema solar y es conocido como el Planeta Rojo debido a su apariencia rojiza. Tiene una superficie de aproximadamente 144 millones de km².</string>
+    <string name="atmosfera_marte">Atmósfera</string>
+    <string name="descripcion_atmosfera_marte">La atmósfera de Marte es muy delgada y está compuesta principalmente por dióxido de carbono, con trazas de nitrógeno y argón. No es adecuada para la vida humana sin protección.</string>
+    <string name="superficie_marte">Superficie de Marte</string>
+    <string name="vista_atmosfera_marte">Vista de la atmósfera de Marte</string>
+    <string name="caracteristicas_superficie_marte">Características de la Superficie</string>
+    <string name="descripcion_caracteristicas_superficie_marte">La superficie de Marte tiene características geológicas diversas, incluyendo volcanes gigantes, valles profundos y casquetes polares. El Monte Olimpo es el volcán más grande del sistema solar.</string>
+    <string name="exploracion_marte">Exploración</string>
+    <string name="descripcion_exploracion_marte">Marte ha sido objeto de numerosas misiones de exploración. Los rovers como Curiosity y Perseverance han proporcionado información valiosa sobre el planeta, incluyendo evidencia de agua en el pasado.</string>
+    <string name="rover_marte">Rover en Marte</string>
+    <string name="login">Login</string>
+    <string name="lista">Lista</string>
+    <string name="salir">Salir</string>
+
+    <!--mercurio-->
+    <string name="title_text">Descubriendo Mercurio: El Planeta Más Cercano al Sol</string>
+    <string name="description_text">Mercurio, el planeta más cercano al Sol, es una maravilla del sistema solar que nos ofrece una fascinante ventana al cosmos. Con su característica superficie rocosa y desolada, marcada por cráteres, cañones y llanuras extensas, Mercurio despierta el interés de científicos y entusiastas del espacio por igual.</string>
+    <string name="close_up_view">Una Visión de Cerca</string>
+    <string name="main_text">Características Principales</string>
+    <string name="feature_1">1. Órbita Excéntrica: Mercurio tiene una órbita altamente excéntrica, lo que significa que su distancia al Sol varía considerablemente a lo largo de su órbita elíptica.</string>
+    <string name="feature_2">2. Extremos de Temperatura: Durante el día, la temperatura en la superficie de Mercurio puede alcanzar niveles extremadamente altos debido a su proximidad al Sol. Sin embargo, durante la noche, la ausencia de una atmósfera significativa para retener el calor resulta en temperaturas extremadamente frías.</string>
+    <string name="feature_3">3. Rotación y Resonancia: Mercurio exhibe una rotación muy lenta sobre su eje y una órbita de resonancia 3:2 con el Sol. Esto significa que gira tres veces sobre su eje por cada dos órbitas alrededor del Sol, lo que da lugar a patrones únicos de luz solar y sombra en su superficie.</string>
+    <string name="login_mercurio">Login</string>
+    <string name="lista_mercurio">Lista</string>
+    <string name="salir_mercurio">Salir</string>
+
+    <!--saturno-->
+    !-- Textos para la infografía de Saturno -->
+    <string name="infografia_saturno">Infografía de Saturno</string>
+    <string name="imagen_saturno">Imagen de Saturno</string>
+    <string name="datos_generales_saturno">Datos Generales</string>
+    <string name="masa_saturno">• Masa: 5.683 × 10^26 kg</string>
+    <string name="diametro">• Diámetro: 120,536 km</string>
+    <string name="distancia_sol">• Distancia del Sol: 1.429 mil millones km</string>
+    <string name="duracion_dia">• Duración del día: 10.7 horas</string>
+    <string name="duracion_anio">• Duración del año: 29.5 años terrestres</string>
+    <string name="anillos_saturno">Anillos de Saturno</string>
+    <string name="descripcion_anillos_saturno">Saturno es conocido por su extenso sistema de anillos, compuesto principalmente de partículas de hielo y roca. Estos anillos se dividen en varios anillos más pequeños con huecos entre ellos.</string>
+    <string name="lunas_saturno">Lunas de Saturno</string>
+    <string name="descripcion_lunas_saturno">Saturno tiene 83 lunas conocidas. Las más grandes y destacadas son Titán, Rea, Japeto y Dione. Titán es la segunda luna más grande del sistema solar.</string>
+    <string name="campo_magnetico_saturno">Campo Magnético</string>
+    <string name="descripcion_campo_magnetico_saturno">Saturno posee un campo magnético que, aunque no es tan fuerte como el de Júpiter, es bastante poderoso y está alineado casi perfectamente con su eje de rotación.</string>
+    <string name="boton_login_saturno">Login</string>
+    <string name="boton_lista_saturno">Lista</string>
+    <string name="boton_salir_saturno">Salir</string>
+
+    <!--urano-->
+    <string name="infografia_urano">Infografía de Urano</string>
+    <string name="imagen_urano">Imagen de Urano</string>
+    <string name="datos_generales_urano">Datos Generales</string>
+    <string name="masa_urano">• Masa: 8.681 × 10^25 kg</string>
+    <string name="diametro_urano">• Diámetro: 50,724 km</string>
+    <string name="distancia_sol_urano">• Distancia del Sol: 2.871 mil millones km</string>
+    <string name="duracion_dia_urano">• Duración del día: 17.2 horas</string>
+    <string name="duracion_ano_urano">• Duración del año: 84.0 años terrestres</string>
+    <string name="anillos_urano">Anillos de Urano</string>
+    <string name="descripcion_anillos_urano">Urano tiene anillos débiles y oscuros, difíciles de observar desde la Tierra. Fueron descubiertos en 1977 por el Voyager 2 y están compuestos principalmente de partículas oscuras.</string>
+    <string name="lunas_urano">Lunas de Urano</string>
+    <string name="descripcion_lunas_urano">Urano tiene 27 lunas conocidas. Las cinco lunas más grandes son Miranda, Ariel, Umbriel, Titania y Oberon. Miranda es la más peculiar con acantilados y cráteres.</string>
+    <string name="campo_magnetico_urano">Campo Magnético</string>
+    <string name="descripcion_campo_magnetico_urano">Urano tiene un campo magnético inclinado y desplazado del centro del planeta, lo que lo hace único en el sistema solar. Se cree que esto puede deberse a una colisión en el pasado.</string>
+
+    <!--venus-->
+    <string name="titulo_texto">Descubriendo Venus: El Planeta Más Brillante</string>
+    <string name="descripcion_texto">Venus, el segundo planeta más cercano al Sol, es conocido como el planeta más brillante en el cielo nocturno. Su atmósfera densa y su superficie envuelta en nubes de ácido sulfúrico hacen de Venus un mundo misterioso y fascinante.</string>
+    <string name="vision_cerca">Una Visión de Cerca</string>
+    <string name="caracteristicas_principales">Características Principales</string>
+    <string name="caracteristica_1">1. Atmósfera Densa: Venus está envuelto en una atmósfera densa compuesta principalmente de dióxido de carbono y nubes de ácido sulfúrico.</string>
+    <string name="caracteristica_2">2. Temperaturas Infernales: Venus experimenta temperaturas superficiales extremadamente altas, lo que lo convierte en el planeta más caliente del sistema solar.</string>
+    <string name="caracteristica_3">3. Rotación Retrógrada: Venus tiene una rotación retrógrada, lo que significa que gira en dirección opuesta a la mayoría de los otros planetas.</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="lista_venus">Lista</string>
+    <string name="salir_venus">Salir</string>
+
+    <!--neptuno-->
+    <string name="infografia_neptuno">Infografía de Neptuno</string>
+<string name="datos_generales_nep">Datos Generales</string>
+<string name="masa_nep">• Masa: 1.024 × 10^26 kg</string>
+<string name="diametro_nep">• Diámetro: 49,244 km</string>
+<string name="distancia_sol_nep">• Distancia del Sol: 4,498 mil millones km</string>
+<string name="duracion_dia_nep">• Duración del día: 16.1 horas</string>
+<string name="duracion_ano_nep">• Duración del año: 164.8 años terrestres</string>
+<string name="anillos_neptuno_nep">Anillos de Neptuno</string>
+<string name="descripcion_anillos_nep">Neptuno tiene anillos débiles, compuestos principalmente de polvo y restos de hielo. Son difíciles de observar desde la Tierra debido a su escasa luminosidad.</string>
+<string name="lunas_neptuno">Lunas de Neptuno</string>
+<string name="descripcion_lunas_nep">Neptuno tiene 14 lunas conocidas. Las más grandes son Tritón, Proteo y Nereida. Tritón es la única luna grande en el sistema solar que orbita en dirección retrógrada.</string>
+<string name="campo_magnetico_nep">Campo Magnético</string>
+<string name="descripcion_campo_magnetico_nep">Neptuno tiene un campo magnético fuerte y algo inclinado. Es similar al campo magnético de Urano y está desplazado del centro del planeta.</string>
+
+    <!--login-->
+    <string name="usuario">Inserte usuario</string>
+    <string name="contraseña">Inserte contraseña</string>
+    <string name="secion">Iniciar secion</string>
+    <string name="cuenta">Crear cuenta</string>
+    <string name="bienvenido">BIENVENIDO AL ESPACIO IMPRESIONANTE</string>
+
+    <!--registro-->
+    <string name="nuevo_usuario">Nuevo Usuario</string>
+    <string name="nueva_contrasena">Nueva Contraseña</string>
+    <string name="direccion">Dirección</string>
+    <string name="nacionalidad">Nacionalidad</string>
+    <string name="numero_telefono">Número de Teléfono</string>
+    <string name="registrar">Registrar</string>
+
 </resources>

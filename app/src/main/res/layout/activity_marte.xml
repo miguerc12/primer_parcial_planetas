@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/infografia_marte"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:paddingBottom="16dp"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/marte_1"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/foto_marte"
+                android:layout_marginBottom="16dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/informacion_general_marte"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#333"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descripcion_informacion_general_marte"
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="16dp"/>
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="@string/superficie_marte"
+                android:scaleType="centerCrop"
+                android:src="@drawable/marte_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/atmosfera_marte"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#333"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descripcion_atmosfera_marte"
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="16dp"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/marte_3"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/vista_atmosfera_marte"
+                android:layout_marginBottom="16dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/caracteristicas_superficie_marte"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#333"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descripcion_caracteristicas_superficie_marte"
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="16dp"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/marte_4"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exploracion_marte"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#333"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descripcion_exploracion_marte"
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="16dp"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/marte_5"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/rover_marte"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/listButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lista" />
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/salir" />
+
+    </LinearLayout>
+
+</RelativeLayout>

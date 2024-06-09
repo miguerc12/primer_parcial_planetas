@@ -5,62 +5,82 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
-
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import java.util.ArrayList;
-import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView totalPriceTextView;
-    private double totalPrice = 0.0;
-    private ArrayList<fruit> fruits;
+
+    private ArrayList<planet> planets;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        totalPriceTextView = findViewById(R.id.totalPrice);
         ListView fruitListView = findViewById(R.id.fruitListView);
 
-        //  lista de frutas
-        fruits = new ArrayList<>();
-        fruits.add(new fruit("Manzana", "Roja y deliciosa", 1.50, R.drawable.manzana));
-        fruits.add(new fruit("Banana", "Amarilla y dulce", 0.75, R.drawable.banana));
-        fruits.add(new fruit("Naranja", "Jugosa y rica en vitamina C", 1.25, R.drawable.naranja));
-        fruits.add(new fruit("Fresa", "Pequeña y jugosa", 2.00, R.drawable.fresa));
-        fruits.add(new fruit("Uva", "Perfecta para el vino", 3.00, R.drawable.uva));
+        // Lista de planetas
+        planets = new ArrayList<>();
+        planets.add(new planet(getString(R.string.mercurio), getString(R.string.mercurio_desc), R.drawable.mercurio));
+        planets.add(new planet(getString(R.string.venus), getString(R.string.venus_desc), R.drawable.venus));
+        planets.add(new planet(getString(R.string.tierra), getString(R.string.tierra_desc), R.drawable.tierra));
+        planets.add(new planet(getString(R.string.marte), getString(R.string.marte_desc), R.drawable.marte));
+        planets.add(new planet(getString(R.string.jupiter), getString(R.string.jupiter_desc), R.drawable.jupiter));
+        planets.add(new planet(getString(R.string.saturno), getString(R.string.saturno_desc), R.drawable.saturno));
+        planets.add(new planet(getString(R.string.urano), getString(R.string.urano_desc), R.drawable.urano));
+        planets.add(new planet(getString(R.string.neptuno), getString(R.string.neptuno_desc), R.drawable.neptuno));
 
-        FruitAdapter adapter = new FruitAdapter(this, fruits);
+        PlanetAdapter adapter = new PlanetAdapter(this, planets);
         fruitListView.setAdapter(adapter);
 
 
         fruitListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                fruit selectedFruit = (fruit) parent.getItemAtPosition(position);
-                totalPrice += selectedFruit.getPrice();
-                updateTotalPrice();
+
+                planet selectedFruit = planets.get(position);
+                if (selectedFruit.getName().equals("Mercurio")) {
+                    // Iniciar la actividad para "Mercurio"
+                    Intent intent = new Intent(MainActivity.this, Mercurio.class);
+                    startActivity(intent);
+                } else if (selectedFruit.getName().equals("Venus")) {
+                    // Iniciar la actividad para "Venus"
+                    Intent intent = new Intent(MainActivity.this, Venus.class);
+                    startActivity(intent);
+                } else if (selectedFruit.getName().equals("Tierra")) {
+                    // Iniciar la actividad para "Tierra"
+                    Intent intent = new Intent(MainActivity.this, Tierra.class);
+                    startActivity(intent);
+                }
+             else if (selectedFruit.getName().equals("Marte")) {
+                // Iniciar la actividad para "marte"
+                Intent intent = new Intent(MainActivity.this, Marte.class);
+                startActivity(intent);
+            }
+                else if (selectedFruit.getName().equals("Júpiter")) {
+                    // Iniciar la actividad para "jupiter"
+                    Intent intent = new Intent(MainActivity.this, Jupiter.class);
+                    startActivity(intent);
+                }
+                else if (selectedFruit.getName().equals("Saturno")) {
+                    // Iniciar la actividad para "saturno"
+                    Intent intent = new Intent(MainActivity.this, Saturno.class);
+                    startActivity(intent);
+                }
+                else if (selectedFruit.getName().equals("Urano")) {
+                    // Iniciar la actividad para "urano"
+                    Intent intent = new Intent(MainActivity.this, Urano.class);
+                    startActivity(intent);
+                }
+
+                else if (selectedFruit.getName().equals("Neptuno")) {
+                    // Iniciar la actividad para "neptuno"
+                    Intent intent = new Intent(MainActivity.this, Neptuno.class);
+                    startActivity(intent);
+                }
+
             }
         });
-
-        fruitListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                fruit selectedFruit = (fruit) parent.getItemAtPosition(position);
-                totalPrice -= selectedFruit.getPrice();
-                updateTotalPrice();
-                return true;
-            }
-        });
-    }
-
-    private void updateTotalPrice() {
-        totalPriceTextView.setText("Total: $" + String.format("%.2f", totalPrice));
     }
 }
-
-
